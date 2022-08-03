@@ -1,0 +1,118 @@
+body {
+    background-image: url("images/books4.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 25px;
+    font-family: serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 18px;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    margin-top: 12px;
+}
+
+h1, h2, .quote {
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #4B0082;
+    border-color: #4B0082;
+}
+
+.content {
+    width: 85%;
+    background-color: cornsilk;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    max-width: 450px;
+    border-radius: 25px;
+}
+
+.item p {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+
+}
+
+.title {
+    text-align: left;
+    width: 80%;
+}
+
+.date {
+    text-align: right;
+    width: 20%;
+}
+
+.checked {
+    color: orange;
+}
+
+.btm-line {
+    margin-top: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.cite {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: #EF0107;
+}
+
+a:active {
+    color: #32de84;
+}
+
+a:visited {
+    color: #720e9e;
+}
+
+@media (max-width: 768px) {
+    body {
+        background: url("images/books4.jpg");
+    }
+}
